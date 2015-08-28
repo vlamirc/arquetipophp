@@ -1,0 +1,14 @@
+<div id="sidebar" class="fixed">
+    <ul class="nav nav-list nav-open">
+        <li><a href="#" class="fechar-sidebar"><i class="icon-reorder"></i> Fechar menu </a></li>
+
+        <?php /*Início dos ítens do menu.*/ ?>
+
+        <li id="menuInicio"><a href="<?php echo URL::to('/'); ?>"><i class="icon-home"></i> Início</a></li>
+
+        <?php /*Fim dos ítens do menu.*/ ?>
+    </ul>
+    <ul class="nav nav-list nav-close" style="display:none">
+        <li><a href="#" class="fechar-sidebar"><i class="icon-reorder"></i> Abrir menu</a></li>
+    </ul>
+</div>
